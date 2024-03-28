@@ -33,7 +33,7 @@ void input() {
 
 }
 // swap the element at index x with the element at index y
-void swap(int x, int j)
+void swap(int x, int y)
 {
     int temp = arr[x];
     arr[x] = arr[y];
@@ -43,7 +43,11 @@ void swap(int x, int j)
 
 void q_short(int low, int high)
 {
-   
+    int temp;
+    int pivot, i, j;
+    if (low > high) {           //step 1
+        return;
+    }
 }
 
 
