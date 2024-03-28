@@ -41,6 +41,11 @@ void swap(int x, int j)
     mov_count++;
 }
 
+void q_short(int low, int high)
+{
+   
+}
+
 
 int main()
 {
